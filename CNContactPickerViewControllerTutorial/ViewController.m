@@ -32,7 +32,11 @@
     CNContactPickerViewController *cnContactPickerViewController = [[CNContactPickerViewController alloc] init];
     [cnContactPickerViewController setDelegate:self];
     // #. 이메일이 없다면 선택이 안되게 진행하기.
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"emailAddresses.@count > 0"];
+//    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"emailAddresses.@count > 0"];
+//    cnContactPickerViewController.predicateForEnablingContact = predicate;
+    
+    // #. 번호가 없다면 선택 안되게.
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"phoneNumbers.@count > 0"];
     cnContactPickerViewController.predicateForEnablingContact = predicate;
     
     // 이동하기
@@ -50,7 +54,7 @@
     
     
     
-    NSString *tempString = [NSString stringWithFormat:@"이름 : %@ \n",contact.familyName];
+    NSString *tempString = [NSString stringWithFormat:@"이름 : %@ %@ %@\n",contact.givenName, contact.familyName, contact.organizationName];
     // 1. 핸드폰번호 (Phone Numbers)
     tempString = [NSString stringWithFormat:@"%@번호 : ",tempString];
 
