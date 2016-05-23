@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA91DEC21CF2EDD900155F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA91DEC11CF2EDD900155F09 /* main.m */; };
+		EA91DEC51CF2EDD900155F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA91DEC41CF2EDD900155F09 /* AppDelegate.m */; };
+		EA91DEC81CF2EDD900155F09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA91DEC71CF2EDD900155F09 /* ViewController.m */; };
+		EA91DECB1CF2EDD900155F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA91DEC91CF2EDD900155F09 /* Main.storyboard */; };
+		EA91DECD1CF2EDDA00155F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA91DECC1CF2EDDA00155F09 /* Assets.xcassets */; };
+		EA91DED01CF2EDDA00155F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA91DECE1CF2EDDA00155F09 /* LaunchScreen.storyboard */; };
+		EA91DEDB1CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA91DEDA1CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.m */; };
+		EA91DEE61CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA91DEE51CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.m */; };
+		EA91DEF51CF2EE4600155F09 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA91DEF31CF2EE4600155F09 /* Contacts.framework */; };
+		EA91DEF61CF2EE4600155F09 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA91DEF41CF2EE4600155F09 /* ContactsUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA91DED71CF2EDDA00155F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA91DEB51CF2EDD900155F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA91DEBC1CF2EDD900155F09;
+			remoteInfo = CNContactPickerViewControllerTutorial;
+		};
+		EA91DEE21CF2EDDA00155F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA91DEB51CF2EDD900155F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA91DEBC1CF2EDD900155F09;
+			remoteInfo = CNContactPickerViewControllerTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA91DEBD1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNContactPickerViewControllerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA91DEC11CF2EDD900155F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA91DEC31CF2EDD900155F09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA91DEC41CF2EDD900155F09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA91DEC61CF2EDD900155F09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA91DEC71CF2EDD900155F09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA91DECA1CF2EDD900155F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA91DECC1CF2EDDA00155F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA91DECF1CF2EDDA00155F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA91DED11CF2EDDA00155F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA91DED61CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNContactPickerViewControllerTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA91DEDA1CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNContactPickerViewControllerTutorialTests.m; sourceTree = "<group>"; };
+		EA91DEDC1CF2EDDA00155F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA91DEE11CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNContactPickerViewControllerTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA91DEE51CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNContactPickerViewControllerTutorialUITests.m; sourceTree = "<group>"; };
+		EA91DEE71CF2EDDA00155F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA91DEF31CF2EE4600155F09 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		EA91DEF41CF2EE4600155F09 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA91DEBA1CF2EDD900155F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA91DEF51CF2EE4600155F09 /* Contacts.framework in Frameworks */,
+				EA91DEF61CF2EE4600155F09 /* ContactsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DED31CF2EDDA00155F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DEDE1CF2EDDA00155F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA91DEB41CF2EDD900155F09 = {
+			isa = PBXGroup;
+			children = (
+				EA91DEF31CF2EE4600155F09 /* Contacts.framework */,
+				EA91DEF41CF2EE4600155F09 /* ContactsUI.framework */,
+				EA91DEBF1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial */,
+				EA91DED91CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests */,
+				EA91DEE41CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests */,
+				EA91DEBE1CF2EDD900155F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA91DEBE1CF2EDD900155F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA91DEBD1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial.app */,
+				EA91DED61CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.xctest */,
+				EA91DEE11CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA91DEBF1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EA91DEC31CF2EDD900155F09 /* AppDelegate.h */,
+				EA91DEC41CF2EDD900155F09 /* AppDelegate.m */,
+				EA91DEC61CF2EDD900155F09 /* ViewController.h */,
+				EA91DEC71CF2EDD900155F09 /* ViewController.m */,
+				EA91DEC91CF2EDD900155F09 /* Main.storyboard */,
+				EA91DECC1CF2EDDA00155F09 /* Assets.xcassets */,
+				EA91DECE1CF2EDDA00155F09 /* LaunchScreen.storyboard */,
+				EA91DED11CF2EDDA00155F09 /* Info.plist */,
+				EA91DEC01CF2EDD900155F09 /* Supporting Files */,
+			);
+			path = CNContactPickerViewControllerTutorial;
+			sourceTree = "<group>";
+		};
+		EA91DEC01CF2EDD900155F09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA91DEC11CF2EDD900155F09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA91DED91CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA91DEDA1CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.m */,
+				EA91DEDC1CF2EDDA00155F09 /* Info.plist */,
+			);
+			path = CNContactPickerViewControllerTutorialTests;
+			sourceTree = "<group>";
+		};
+		EA91DEE41CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA91DEE51CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.m */,
+				EA91DEE71CF2EDDA00155F09 /* Info.plist */,
+			);
+			path = CNContactPickerViewControllerTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA91DEBC1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA91DEEA1CF2EDDA00155F09 /* Build configuration list for PBXNativeTarget "CNContactPickerViewControllerTutorial" */;
+			buildPhases = (
+				EA91DEB91CF2EDD900155F09 /* Sources */,
+				EA91DEBA1CF2EDD900155F09 /* Frameworks */,
+				EA91DEBB1CF2EDD900155F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNContactPickerViewControllerTutorial;
+			productName = CNContactPickerViewControllerTutorial;
+			productReference = EA91DEBD1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA91DED51CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA91DEED1CF2EDDA00155F09 /* Build configuration list for PBXNativeTarget "CNContactPickerViewControllerTutorialTests" */;
+			buildPhases = (
+				EA91DED21CF2EDDA00155F09 /* Sources */,
+				EA91DED31CF2EDDA00155F09 /* Frameworks */,
+				EA91DED41CF2EDDA00155F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA91DED81CF2EDDA00155F09 /* PBXTargetDependency */,
+			);
+			name = CNContactPickerViewControllerTutorialTests;
+			productName = CNContactPickerViewControllerTutorialTests;
+			productReference = EA91DED61CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA91DEE01CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA91DEF01CF2EDDA00155F09 /* Build configuration list for PBXNativeTarget "CNContactPickerViewControllerTutorialUITests" */;
+			buildPhases = (
+				EA91DEDD1CF2EDDA00155F09 /* Sources */,
+				EA91DEDE1CF2EDDA00155F09 /* Frameworks */,
+				EA91DEDF1CF2EDDA00155F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA91DEE31CF2EDDA00155F09 /* PBXTargetDependency */,
+			);
+			name = CNContactPickerViewControllerTutorialUITests;
+			productName = CNContactPickerViewControllerTutorialUITests;
+			productReference = EA91DEE11CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA91DEB51CF2EDD900155F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kimjiwook;
+				TargetAttributes = {
+					EA91DEBC1CF2EDD900155F09 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EA91DED51CF2EDDA00155F09 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA91DEBC1CF2EDD900155F09;
+					};
+					EA91DEE01CF2EDDA00155F09 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA91DEBC1CF2EDD900155F09;
+					};
+				};
+			};
+			buildConfigurationList = EA91DEB81CF2EDD900155F09 /* Build configuration list for PBXProject "CNContactPickerViewControllerTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA91DEB41CF2EDD900155F09;
+			productRefGroup = EA91DEBE1CF2EDD900155F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA91DEBC1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial */,
+				EA91DED51CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests */,
+				EA91DEE01CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA91DEBB1CF2EDD900155F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA91DED01CF2EDDA00155F09 /* LaunchScreen.storyboard in Resources */,
+				EA91DECD1CF2EDDA00155F09 /* Assets.xcassets in Resources */,
+				EA91DECB1CF2EDD900155F09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DED41CF2EDDA00155F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DEDF1CF2EDDA00155F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA91DEB91CF2EDD900155F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA91DEC81CF2EDD900155F09 /* ViewController.m in Sources */,
+				EA91DEC51CF2EDD900155F09 /* AppDelegate.m in Sources */,
+				EA91DEC21CF2EDD900155F09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DED21CF2EDDA00155F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA91DEDB1CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA91DEDD1CF2EDDA00155F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA91DEE61CF2EDDA00155F09 /* CNContactPickerViewControllerTutorialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA91DED81CF2EDDA00155F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA91DEBC1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial */;
+			targetProxy = EA91DED71CF2EDDA00155F09 /* PBXContainerItemProxy */;
+		};
+		EA91DEE31CF2EDDA00155F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA91DEBC1CF2EDD900155F09 /* CNContactPickerViewControllerTutorial */;
+			targetProxy = EA91DEE21CF2EDDA00155F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA91DEC91CF2EDD900155F09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA91DECA1CF2EDD900155F09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA91DECE1CF2EDDA00155F09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA91DECF1CF2EDDA00155F09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA91DEE81CF2EDDA00155F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA91DEE91CF2EDDA00155F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA91DEEB1CF2EDDA00155F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CNContactPickerViewControllerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-.CNContactPickerViewControllerTutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA91DEEC1CF2EDDA00155F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CNContactPickerViewControllerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-.CNContactPickerViewControllerTutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA91DEEE1CF2EDDA00155F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CNContactPickerViewControllerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-.CNContactPickerViewControllerTutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNContactPickerViewControllerTutorial.app/CNContactPickerViewControllerTutorial";
+			};
+			name = Debug;
+		};
+		EA91DEEF1CF2EDDA00155F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CNContactPickerViewControllerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-.CNContactPickerViewControllerTutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNContactPickerViewControllerTutorial.app/CNContactPickerViewControllerTutorial";
+			};
+			name = Release;
+		};
+		EA91DEF11CF2EDDA00155F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CNContactPickerViewControllerTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-.CNContactPickerViewControllerTutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CNContactPickerViewControllerTutorial;
+			};
+			name = Debug;
+		};
+		EA91DEF21CF2EDDA00155F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CNContactPickerViewControllerTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.-.CNContactPickerViewControllerTutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CNContactPickerViewControllerTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA91DEB81CF2EDD900155F09 /* Build configuration list for PBXProject "CNContactPickerViewControllerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA91DEE81CF2EDDA00155F09 /* Debug */,
+				EA91DEE91CF2EDDA00155F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA91DEEA1CF2EDDA00155F09 /* Build configuration list for PBXNativeTarget "CNContactPickerViewControllerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA91DEEB1CF2EDDA00155F09 /* Debug */,
+				EA91DEEC1CF2EDDA00155F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA91DEED1CF2EDDA00155F09 /* Build configuration list for PBXNativeTarget "CNContactPickerViewControllerTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA91DEEE1CF2EDDA00155F09 /* Debug */,
+				EA91DEEF1CF2EDDA00155F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA91DEF01CF2EDDA00155F09 /* Build configuration list for PBXNativeTarget "CNContactPickerViewControllerTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA91DEF11CF2EDDA00155F09 /* Debug */,
+				EA91DEF21CF2EDDA00155F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA91DEB51CF2EDD900155F09 /* Project object */;
+}

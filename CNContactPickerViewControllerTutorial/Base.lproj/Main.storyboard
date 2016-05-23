@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRn-jH-5EE">
+                                <rect key="frame" x="219" y="285" width="162" height="30"/>
+                                <state key="normal" title="주소록(Address) 가져오기"/>
+                                <connections>
+                                    <action selector="goAddress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgj-nv-Ey3"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="여기에 주소록 정보를 넣을 예정입니다." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pmb-EZ-LBf">
+                                <rect key="frame" x="42" y="48" width="524" height="217"/>
+                                <color key="backgroundColor" red="0.95973154362416047" green="0.96840918624161076" blue="0.91836199664429419" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pmb-EZ-LBf" firstAttribute="bottom" secondItem="aRn-jH-5EE" secondAttribute="top" constant="-20" id="JRv-AZ-kVF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pmb-EZ-LBf" secondAttribute="trailing" constant="14" id="KQZ-eU-ipp"/>
+                            <constraint firstItem="aRn-jH-5EE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="88" id="Oj5-p2-JTK"/>
+                            <constraint firstItem="aRn-jH-5EE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Uwi-cm-WkW"/>
+                            <constraint firstItem="aRn-jH-5EE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="geM-Ee-Iqh"/>
+                            <constraint firstItem="Pmb-EZ-LBf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="iAe-72-fAA"/>
+                            <constraint firstItem="Pmb-EZ-LBf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="isG-MD-I46"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aRn-jH-5EE" secondAttribute="trailing" constant="88" id="uaH-es-CqZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Oj5-p2-JTK"/>
+                                <exclude reference="uaH-es-CqZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="Pmb-EZ-LBf" id="5L0-Vp-n7l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="556"/>
+        </scene>
+    </scenes>
+</document>
